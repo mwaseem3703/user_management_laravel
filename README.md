@@ -4,39 +4,53 @@ A robust and responsive User Registration System built with Laravel and Tailwind
 
 ## 🚀 Features
 
-* **Complete CRUD Functionality:** Register, view, edit, and delete user records seamlessly.
-* **Live Search:** Instantly filter the user list by email without reloading the page.
-* **Image Uploads:** Users can upload profile pictures, which are safely stored and displayed on the dashboard.
-* **Strict Data Validation (Frontend & Backend):**
-  * **Name:** Restricted to alphabetic characters and spaces only.
-  * **Telephone:** Strictly enforced 11-digit numeric limit.
-  * **CNIC:** Auto-formatting to standard Pakistani format (`XXXXX-XXXXXXX-X`).
-  * **Email:** Unique email validation.
-* **Modern UI:** Clean, responsive, and intuitive interface styled using Tailwind CSS and FontAwesome icons.
+- **Complete CRUD Functionality:** Register, view, edit, and delete user records seamlessly.
+- **Live Search:** Instantly filter the user list by email without reloading the page.
+- **Image Uploads:** Users can upload profile pictures, which are safely stored and displayed on the dashboard.
+- **Strict Data Validation (Frontend & Backend):**
+    - **Name:** Restricted to alphabetic characters and spaces only.
+    - **Telephone:** Strictly enforced 11-digit numeric limit.
+    - **CNIC:** Auto-formatting to standard Pakistani format (`XXXXX-XXXXXXX-X`).
+    - **Email:** Unique email validation.
+- **Modern UI:** Clean, responsive, and intuitive interface styled using Tailwind CSS and FontAwesome icons.
 
 ## 📸 Screenshots
 
-*(Note: Add your actual images to a `docs` or `screenshots` folder in your repository and update these links)*
+_(Note: Add your actual images to a `docs` or `screenshots` folder in your repository and update these links)_
 
 ### Home Page & Live Search
-![Home Page](https://via.placeholder.com/800x400.png?text=Home+Page+Screenshot+Here)
+
+![Home Page](screenshot/homepage.png)
 
 ### Registration Form
-![Registration Form](https://via.placeholder.com/800x400.png?text=Registration+Form+Screenshot+Here)
+
+![Registration Form](screenshot/register.png)
+
+### Search By Email
+
+![Registration Form](screenshot/search.png)
+
+### Update Form
+
+![Registration Form](screenshot/update.png)
+
+### Validation on Registration Form
+
+![Registration Form](screenshot/validation-on-register.png)
 
 ## 🛠️ Tech Stack
 
-* **Backend:** Laravel (PHP)
-* **Database:** MySQL
-* **Frontend:** Blade Templates, HTML5, Vanilla JavaScript
-* **Styling:** Tailwind CSS (via CDN)
-* **Icons:** FontAwesome
+- **Backend:** Laravel (PHP)
+- **Database:** MySQL
+- **Frontend:** Blade Templates, HTML5, Vanilla JavaScript
+- **Styling:** Tailwind CSS (via CDN)
+- **Icons:** FontAwesome
 
 ## 📋 Prerequisites
 
 Before you begin, ensure you have the following installed on your local machine:
-* PHP >= 8.1
-* Composer
-* MySQL
-* A local development server (like XAMPP, Laragon, or Laravel Herd)
 
+- PHP >= 8.1
+- Composer
+- MySQL
+- A local development server (like XAMPP, Laragon, or Laravel Herd)
